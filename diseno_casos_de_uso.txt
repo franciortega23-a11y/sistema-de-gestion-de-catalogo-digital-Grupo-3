@@ -1,0 +1,26 @@
+Descripción del Diagrama de Casos de Uso
+Actores principales:
+
+Emprendedor: Gestiona el inventario, catálogo y productos del taller.
+Cliente: Visualiza el catálogo público sin necesidad de iniciar sesión.
+Administrador: Supervisa la plataforma con privilegios elevados.
+
+Casos de uso principales:
+
+CU-01: Registrarse como emprendedor.
+CU-02: Autenticarse en el sistema.
+CU-03: Publicar nuevo producto en el catálogo.
+CU-04: Editar producto publicado.
+CU-05: Eliminar producto publicado.
+CU-06: Actualizar stock de producto.
+CU-07: Editar perfil del taller.
+CU-08: Recuperar contraseña.
+CU-09: Consultar disponibilidad de productos.
+CU-10: Buscar y filtrar productos.
+CU-11: Activar o desactivar cuenta de emprendedor.
+
+Relaciones especiales:
+
+CU-03 «include» CU-02: no se puede publicar un producto sin estar autenticado.
+CU-08 «extend» CU-02: la recuperación de contraseña solo se activa si el usuario la olvida.
+CU-10 «extend» CU-09: la búsqueda es un refinamiento opcional de la consulta del catálogo.
