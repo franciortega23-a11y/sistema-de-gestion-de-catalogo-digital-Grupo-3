@@ -1,0 +1,19 @@
+REQUISITOS FUNCIONALES:
+
+RF-01: Registro y autenticación segura del emprendedor.
+RF-02: Crear, editar, eliminar y categorizar productos.
+RF-03: Catálogo público visible sin necesidad de registro.
+RF-04: Registro de stock y alerta de nivel mínimo.
+RF-05: Resumen del inventario con estado de cada producto.
+RF-06: Búsqueda y filtrado de productos en el catálogo público.
+RF-07: Recuperación de contraseña mediante correo electrónico.
+RF-08: Gestión del perfil del taller (nombre, descripción, logo).
+
+REQUISITOS NO FUNCIONALES:
+
+RNF-01: Interfaz intuitiva, con curva de aprendizaje menor a 30 minutos para las funciones principales.
+RNF-02: Tiempo de respuesta máximo de 3 segundos bajo condiciones normales de uso.
+RNF-03: Contraseñas cifradas y sesiones que expiran automáticamente tras 30 minutos de inactividad.
+RNF-04: Disponibilidad mínima del 95% durante el período de operación del sistema.
+RNF-05: Compatibilidad con Chrome, Firefox y Edge, tanto en escritorio como en dispositivos móviles.
+RNF-06: Compresión automática de imágenes a menos de 500 KB.
