@@ -21,4 +21,4 @@ Desarrollar una aplicación web utilizando la metodología Scrum para el manejo 
 - Gestión del proyecto: Trello (tablero Scrum).
 - Control de versiones: Git y GitHub.
 
-## 
+## Estado del proyecto
